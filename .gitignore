@@ -41,3 +41,6 @@ app.*.map.json
 
 # Native libraries
 *.so
+
+# Java/Android heap dumps
+*.hprof
