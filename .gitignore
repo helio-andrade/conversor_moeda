@@ -44,3 +44,34 @@ app.*.map.json
 
 # Java/Android heap dumps
 *.hprof
+# General generated artifacts
+*.tmp
+*.temp
+*.orig
+*.rej
+coverage/
+lcov.info
+# JVM/Native crash outputs
+hs_err_pid*
+replay_pid*
+*.dmp
+# IDE/editor local settings
+.vscode/
+# Flutter/Platform build outputs
+**/build/
+.fvm/
+# Android local/generated files
+android/.gradle/
+android/local.properties
+android/captures/
+android/**/captures/
+# iOS/macOS generated dependencies and ephemeral files
+ios/Flutter/ephemeral/
+ios/.symlinks/
+ios/Pods/
+macos/Flutter/ephemeral/
+macos/.symlinks/
+macos/Pods/
+# Linux/Windows Flutter ephemeral files
+linux/flutter/ephemeral/
+windows/flutter/ephemeral/
